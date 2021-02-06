@@ -12,7 +12,7 @@ const path = require('path');
 const app = express();
 
 // require database configuration
-require('./configs/db.config');
+require('./configs/db.configs.js');
 
 // Middleware Setup
 app.use(logger('dev'));
